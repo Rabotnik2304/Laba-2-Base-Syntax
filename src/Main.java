@@ -12,14 +12,6 @@ public class Main {
 
         getSignsNumbers(new Integer[]{0, 0, 0, 0, 0, 0, 0},0);
     }
-    //98+7+6-5-4*3/2=100
-    //98+7-6-5+4*3/2=100
-    //98+7-6*5/4/3*2=100
-    //98+7*6+5-43-2=100
-    //98+7*6-5/4*32=100
-    //98+7/6+5/4/3*2=100
-    //98-7+6+5+4-3*2=100
-    //98-7+6*5/4+3/2=100
     public static void getSignsNumbers(Integer[] signsNumbers, int recursionDepth){
         if (recursionDepth==7){
             calc(signsNumbers);
